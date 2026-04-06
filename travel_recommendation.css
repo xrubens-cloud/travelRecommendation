@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:white;
 }
 nav {
-    background-color: #f0f0f0;
+    background-color: #262652;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -26,13 +27,18 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
   }
   
   /* Basic CSS for the form elements */
   body {
     font-family: Arial, sans-serif;
+    background-image: url("img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* margin: 20px; */
   }
   
@@ -43,6 +49,8 @@ nav {
   div {
     margin-bottom: 10px;
   }
+
+
   
   label {
     display: inline-block;
@@ -90,4 +98,8 @@ nav {
     width: 200px;
     height: 100px;
   }
+
+
+
+
   
