@@ -42,11 +42,26 @@ nav {
     /* margin: 20px; */
   }
 
+
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+
+  #content {
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+  }
+
   #introduction{
 
     width:500px;
   }
-  
+
 
   #socialLink{
     list-style-type: none;
