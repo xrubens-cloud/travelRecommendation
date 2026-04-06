@@ -41,6 +41,15 @@ nav {
     background-position: center;
     /* margin: 20px; */
   }
+
+  #introduction{
+
+    width:500px;
+  }
+
+  #socialLink{
+    list-style-type: none;
+  }
   
   h1 {
     margin-bottom: 20px;
