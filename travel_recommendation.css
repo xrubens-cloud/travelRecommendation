@@ -68,6 +68,24 @@ nav {
     margin-bottom:50px;
   }
 
+
+  #searchResult {
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    column-gap: 70px; 
+  }
+
+
+
+
+  #resultimage {
+    height:150px;
+    width:300px;
+  }
   #introduction{
 
     width:500px;
