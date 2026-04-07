@@ -42,6 +42,16 @@ nav {
     /* margin: 20px; */
   }
 
+  #headerLogo{
+    height:70px;
+    width:250px;
+  }
+
+  #teamLogo{
+    height:70px;
+    width:70px;
+  }
+
   .container{
     display: flex;
     justify-content: space-between;

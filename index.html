@@ -5,24 +5,26 @@
     <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="img/header_logo.png" alt="TravelGo" height="70" width="300">
-        </div>
-        <div >  
+    <div>
+        <nav>
+            <div>
+                <img id="headerLogo" src="img/header_logo.png" alt="TravelGo">
+            </div>
+            <div >  
+                <ul>
+                    <li><a href="./index.html" id="home">Home </a></li>
+                    <li><a href="./about_us.html" id="contact">About Us </a></li>
+                    <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+                </ul>
+            </div>
             <ul>
-                <li><a href="./index.html" id="home">Home </a></li>
-                <li><a href="./about_us.html" id="contact">About Us </a></li>
-                <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+            <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
+            <li>
+                <button id='btnSearch'>Search</button>
+            </li>
             </ul>
-        </div>
-        <ul>
-        <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
-        <li>
-            <button id='btnSearch'>Search</button>
-        </li>
-        </ul>
-    </nav>
+        </nav>
+    <div>
     <div style="margin:70px;">
        
         <div class="container">
