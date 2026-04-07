@@ -69,14 +69,28 @@ nav {
   }
 
 
-  #searchResult {
+  .searchResult {
     display: flex;
-    flex-direction: row; 
+    flex-wrap: wrap;
     text-align: center;
     margin-left:50px;
     margin-right:50px;
     margin-bottom:50px;
-    column-gap: 70px; 
+    column-gap: 10px; 
+  
+  }
+
+  .searchItem {
+    color:black;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #7769696c;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
 
