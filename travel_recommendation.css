@@ -42,6 +42,9 @@ nav {
     /* margin: 20px; */
   }
 
+  #searchKeyword{
+    color:black;
+  }
   #headerLogo{
     height:70px;
     width:250px;
